@@ -1,5 +1,5 @@
-num = float(input('Anna sentti määrä: '))
+num = float(input('Anna tuuma määrä: '))
 while num > 0:
-    print(f'{num} senttiä on {num*0.39370079:.2f} tuumaa.')
-    num = float(input('Anna sentti määrä: '))
+    print(f'{num} tuuma on {num*2.54:.2f} senttiä.')
+    num = float(input('Anna tuuma määrä: '))
 print('Toiminto lopetettu!')
